@@ -1,0 +1,17 @@
+.env
+*.local
+
+data/
+outputs/
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pipcache/
+.tmp/
+
+.archify/
+
+.idea/
+.vscode/
