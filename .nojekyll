@@ -1,0 +1,10 @@
+这个文件是给 GitHub Pages 看的标记：存在即表示「不要用 Jekyll 处理这个站点」。
+
+为什么需要它：
+
+仓库里的 Markdown 贴了 Qwen 的 jinja 模板（`{%- if tools ... %}`），
+而 Jekyll 会把 `{% %}` 当成它自己的 Liquid 语法去解析，遇到没闭合的 `if`
+就整站构建失败。关掉 Jekyll 之后，HTML 和 Markdown 都按原样当作静态文件发出去。
+
+根路径没有 index.html 是正常的 —— 要访问的是
+https://wxl123z.github.io/firefly/archify/runtime-architecture.html
