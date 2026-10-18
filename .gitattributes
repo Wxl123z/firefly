@@ -1,4 +1,1 @@
-# archify 生成的架构图是自包含 HTML —— SVG、JS、CSS 和全部节点数据都内联在
-# 一个文件里（为了能离线双击打开），单个文件就有 840 KB，比全部 Python 源码
-# 还大。标记成 generated 之后它不进语言统计，仓库的语言栏才反映真实构成。
 archify/*.html linguist-generated
